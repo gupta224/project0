@@ -1,0 +1,73 @@
+<!doctype html>
+    <html>
+        <head>
+            <title>Registration froum</title>
+            <meta charset="utf-8">
+  <meta name="viewport"> <!--content="width=device-width, initial-scale=1"-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+        <body>
+
+            <link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+<!--<form id="regform" action="/action_page.php" method="get">-->
+
+    <h1>Register</h1>           
+
+              <div class="container-fluid" >
+                
+                  <nav class="navbar navbar-expand-sm">
+                    
+                    <ul class="navbar-nav">
+   <li class="nav-item"><a class="nav-link" href="#">About yourself&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp;</a>
+                        </li>   
+                    
+                 
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a class="nav-link" href="#">Contact info&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp;</a>
+                            </li>
+                            <ul class="navbar-nav">
+                                <li class="nav-item"><a class="nav-link" href="#">Education&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp;</a>
+                                </li>
+                                <ul class="navbar-nav">
+                                    <li class="nav-item"><a class="nav-link" href="#">Preview&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp;</a>
+                                    </li>
+                  </nav>
+              </div> 
+              <h3>Basic Info</h3>
+                
+                    
+                
+<label><b>Name</b><span class="required"></span></label><br> <br>
+<input type="text" placeholder="First" name="name" required>
+<input type="text" placeholder="Last" name="name" required>  <br> <br>              
+<label><b>Profile Photo</b></label><br>
+
+<form action="upload.php" method="post" enctype="multipart/form-data">
+    Select image to upload:
+    <input type="file" name="fileToUpload" id="fileToUpload">
+    
+   <br><br>
+
+</form>
+<div class="picture-container">
+    <div class="col-3">
+        <div class="picture">
+<img src="https://lh3.googleusercontent.com/LfmMVU71g-HKXTCP_QWlDOemmWg4Dn1rJjxeEsZKMNaQprgunDTtEuzmcwUBgupKQVTuP0vczT9bH32ywaF7h68mF-osUSBAeM6MxyhvJhG6HKZMTYjgEv3WkWCfLB7czfODidNQPdja99HMb4qhCY1uFS8X0OQOVGeuhdHy8ln7eyr-6MnkCcy64wl6S_S6ep9j7aJIIopZ9wxk7Iqm-gFjmBtg6KJVkBD0IA6BnS-XlIVpbqL5LYi62elCrbDgiaD6Oe8uluucbYeL1i9kgr4c1b_NBSNe6zFwj7vrju4Zdbax-GPHmiuirf2h86eKdRl7A5h8PXGrCDNIYMID-J7_KuHKqaM-I7W5yI00QDpG9x5q5xOQMgCy1bbu3St1paqt9KHrvNS_SCx-QJgBTOIWW6T0DHVlvV_9YF5UZpN7aV5a79xvN1Gdrc7spvSs82v6gta8AJHCgzNSWQw5QUR8EN_-cTPF6S-vifLa2KtRdRAV7q-CQvhMrbBCaEYY73bQcPZFd9XE7HIbHXwXYA=s200-no" class="picture-src" id="wizardPicturePreview" title=""><br>
+            <input type="file" id="wizard-picture" class="">
+           
+        </div><br>
+    
+    </div>
+</div>
+
+
+<form action="/action_page.php">
+   
+    <input type="date" id="birthday" name="birthday">
+    
+  </form>

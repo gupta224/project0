@@ -210,3 +210,12 @@ background-color: red;
   .btn-default-addBtn:hover {
     background-color: rgb(46, 66, 243);
   }
+  #fileToUpload{
+    width: 230px;
+  }
+  /** multiple files*/
+  #selectedFiles img {
+		max-width: 125px;
+		max-height: 125px;
+		float: left;
+		margin-bottom:10px;
